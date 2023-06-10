@@ -1,0 +1,1072 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #F4F4F4;
+    color: #333333;
+}
+
+
+@media(min-width : 320px) {
+    .span{
+        background: #f25050;
+    }
+    .header{
+        width: 100%;
+        padding: 0;
+        min-height: 152px;
+        background-color: #f25050;
+    }
+    .boxLogo img{
+        width: 200px;
+        height: 50px;
+        margin-top: 0.6rem;
+        background-color: #f25050;
+    
+    }
+    .boxLogo{
+        float: left;
+        background-color: #f25050;
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+    .bars{
+        background-color: #f25050;
+        position: absolute;
+        top: 29px;
+        right: 27px;
+        font-size: 30px;
+    }
+    .bars i{
+        background-color: #f25050;
+        color: white;
+    }
+    .menuHome{
+        margin-left: 0;
+    }
+    .menuHome ul{
+        display: block;
+        float: left;
+        padding-top: 1rem;
+        background-color: #f25050;
+        width: 100%;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        height: 0;
+    }
+    .menuHome ul.active{
+        opacity: 1;
+        height: auto;
+    }
+    .active1{
+        margin-bottom: 111px;
+    }
+    .menuHome ul li{
+        list-style: none;
+        padding: .5rem 0;
+        background-color: #f25050;
+    }
+    .menuHome ul li a{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 18px;
+        background-color: #f25050;
+        color: #F4F4F4;
+    
+    }
+    .boxSearch{
+        padding-top: 0.75rem;
+    float: left;
+    width: 76%;
+    padding-left: 5%;
+    background-color: #f25050;
+    padding-bottom: 19px;
+    }
+    .boxSearch input{
+        padding: 0.7rem 10%;
+    border-radius: 50px;
+    width: 80%;
+    font-size: 15px;
+    border: 1px solid silver;
+    position: relative;
+    }
+    .boxSearch input:hover{
+        border: 1px solid silver;
+    }
+    .boxSearch img{
+        width: 35px;
+    height: 35px;
+    margin-left: 65%;
+    margin-top: -38px;
+    position: absolute;
+    cursor: pointer;
+    }
+    .boxCart{
+        padding-top: 0.5rem;
+        float: left;
+        width: 19%;
+        text-align: left;
+        background-color: #f25050;
+        padding-bottom: 14px;
+    }
+    .boxCart i{
+        cursor: pointer;
+        background-color: #f25050;
+        font-size: 30px;
+        padding: 10px;
+        color: #F4F4F4;
+        width: 25%;
+    }
+    .boxCart a:first-child{
+        position: relative;
+        margin-left: 10px;
+    }
+    .boxCart a:last-child{
+        display: none;
+    }
+    .boxCart span{
+        position: absolute;
+    padding: 5px 8px;
+    border-radius: 50%;
+    top: -32px;
+    left: 38px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f25050;
+    }
+    .main{
+        width: 100%;
+        padding: 0;
+        height: auto;
+        margin-top: 0px;
+    }
+    .banner{
+        width: 96%;
+        height: 450px;
+        margin-bottom: 140px;
+        padding: 2%;
+    }
+    .textBanner{
+        width: 90%;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 5%;
+    /* z-index: 2; */
+    position: relative;
+    background: none;
+    }
+    .review{
+        background: none;
+        display: -webkit-box;
+        line-height: 1.3;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: justify;
+        padding: 0 0;
+    }
+    .imgBanner{
+        width: 100%;
+    float: right;
+    text-align: center;
+    margin-top: 0;
+    }
+    .imgBanner img{
+        width: 350px;
+        height: 350px;
+        border-radius: 5px;
+    }
+    .textBanner h1{
+        color: #323032;
+        padding: 0 0;
+        background: none;
+        margin-bottom: 0;
+    }
+    .textBanner span{
+        color: #f25050;
+    background: none;
+    }
+    .btnBuyNow{
+        padding: 15px 40px;
+    border-radius: 50px;
+    background: #f25050;
+    border: 1px solid #f25050;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 0;
+    margin-top: 10px;
+    }
+    .btnDetail{
+        padding: 15px 35px;
+        border-radius: 50px;
+        background: #9e9a9a;
+        border: 1px solid #9e9a9a;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .btnBuyNow:hover{
+        background: #e14b3e;
+        border: 1px solid #e14b3e;
+    }
+    .btnDetail:hover{
+        background: #7e7a7a;
+        border: 1px solid #7e7a7a;
+    }
+
+
+    .serve{
+        text-align: center;
+        min-height: 1150px;
+    }
+    .boxServe{
+        display: block;
+        justify-content: center;
+    }
+    .serve h1{
+        padding: 20px 0;
+    }
+    .itemServe{
+        width: 90%;
+        border-radius: 20px;
+        margin: 10px 5%;
+        padding: 0;
+        text-align: center;
+        float: left;
+        background: white;
+    }
+    .itemRate{
+        width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 3%;
+    text-align: left;
+    float: left;
+    height: 175px;
+    }
+    .itemRate img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        float: left;
+        margin: 10px;
+    }
+    .rate h1{
+        text-align: center;
+    }
+    .itemRate h3{
+        background-color: white;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .timeRate{
+        background-color: white;
+        font-size: 11px;
+        padding: 7px 0;
+    }
+    .itemRate p{
+        background-color: white;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .itemServe img{
+        width: 70px;
+        height: 70px;
+    }
+    .itemServe h3{
+        background-color: white;
+        text-align: center;
+    }
+    .itemServe p{
+        background-color: white;
+        text-align: justify;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    span{
+        color:#f25050;
+    }
+    .boxDacSan{
+        margin-top: 50px;
+        min-height: 1325px;
+    }
+    .boxDacSan h1{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .slideBanner{
+        border: 1px solid silver;
+        border-radius: 15px;
+    }
+    .listDacSan{
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    .itemDacSan{
+        width: 43.4%;
+    border: 1px solid #f25050;
+    padding: 1% 2%;
+    float: left;
+    border-radius: 20px;
+    margin: 1%;
+    text-align: center;
+    background: white;
+    }
+    .itemDacSan img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid silver;
+        background: white;
+    }
+    .dacsanName{
+        padding: 10px 0;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: left;
+        background: white;
+    }
+    .dacsanReview{
+        font-size: 13.2px;
+        text-align: left;
+        background: white;
+        display: block;
+          display: -webkit-box;
+          line-height: 1.3;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        margin-bottom: 10px;
+    }
+    .dacsanPrice{
+        color: #f25050;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: left;
+        padding-bottom: 10px;
+        background: white;
+    }
+    .btnAddToCart{
+        padding: 13px 0;
+        border-radius: 20px;
+        color: #f25050;
+        border: 1px solid #f25050;
+        font-size: 13px;
+        cursor: pointer;
+        width: 100%;
+        margin: 5px 0;
+        float: left;
+        background: white;
+    }
+    .btnBuyNowItem{
+        padding: 13px 0;
+    border-radius: 20px;
+    background: #f25050;
+    border: 1px solid #f25050;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+    margin: 5px 0;
+    float: right;
+    }
+    .average-rating {
+        position: relative;
+        appearance: none;
+        color: transparent;
+        width: auto;
+        display: inline-block;
+        vertical-align: baseline;
+        margin-bottom: 15px;
+      }
+    .average-rating::before {
+        --percent: calc(2.5/5*100%);
+        content: '★★★★★';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: rgba(0,0,0,0.2);
+        background:
+          linear-gradient(90deg, gold var(--percent), rgba(0,0,0,0.2) var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    .liRate{
+        display: flex;
+    }
+    .whyChoosen{
+        text-align: center;
+        margin-top: 100px;
+        height: 450px;
+        min-height: 1050px;
+    }
+    .itemWhy{
+        width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 3%;
+    text-align: center;
+    float: left;
+        height: 235px;
+    }
+    .itemWhy img{
+        background-color: white;
+    }
+    .boxItemWhy{
+        margin-top: 20px;
+    }
+    .explain{
+        width: 90%;
+        padding: 15px 5%;
+        font-size: 14px;
+    }
+    .whyChoosen h1{
+        width: 90%;
+        padding: 0 5%;
+    }
+    .itemWhy h3{
+        color: #333333;
+        padding: 10px 0;
+        background-color: white;
+    }
+    .itemWhy p{
+        text-align: justify;
+        font-size: 14px;
+        background: white;
+        padding: 0 20px;
+    }
+    .footer{
+        width: 100%;
+        padding: 0;
+        min-height: 320px;
+        background: #f25050;
+        color: white;
+    }
+    .footer1{
+        width: 90%;
+        float: left;
+        padding: 5%;
+        text-align: center;
+        background: #f25050;
+    }
+    .footer1 img{
+        width: 300px;
+        height: 75px;
+        background: #f25050;
+    }
+    .footer1 p{
+        text-align: center;
+        background: #f25050;
+        color: yellow;
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .footer2{
+        width: 54%;
+        float: left;
+        padding: 3%;
+        background: #f25050;
+        color: white;
+    }
+    .footer2 h3{
+        background: #f25050;
+        padding-bottom: 15px;
+        color: white;
+    
+    }
+    .footer2 li{
+        background: #f25050;
+        list-style: none;
+        padding: 10px 0;
+    }
+    .footer2 a{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+    
+    }
+    sup{
+        color:#f25050;
+        background-color: white;
+    }
+    .footer2 i{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+    }
+
+    .footer3{
+        width: 38%;
+        float: left;
+        padding: 1%;
+        background: #f25050;
+        color: white;
+    }
+    .footer3 h3{
+        background: #f25050;
+        padding-bottom: 15px;
+        color: white;
+    
+    }
+    .footer3 li{
+        background: #f25050;
+        list-style: none;
+        padding: 10px 0;
+    }
+    .footer3 a{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+    
+    }
+    sup{
+        color:#f25050;
+        background-color: white;
+    }
+    .footer3 i{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+    }
+    .priceBanner{
+        color: #f25050;
+        font-weight: 700;
+        font-size: 17px;
+    }
+}
+@media(min-width : 768px) {}
+@media(min-width: 961px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .bars{
+        display: none;
+    }
+    .boxCart a:last-child{
+        display: contents;
+    }
+    .header{
+        width: 60%;
+        padding: 0 20%;
+        min-height: 80px;
+        background-color: #f25050;
+    }
+    .boxLogo img{
+        width: 200px;
+        height: 50px;
+        margin-top: 0.6rem;
+        background-color: #f25050;
+    
+    }
+    .boxLogo{
+        float: left;
+        background-color: #f25050;
+        width: auto;
+    }
+    .menuHome{
+        margin-left: 19%;
+    }
+    .menuHome ul{
+        display: flex;
+        float: left;
+        padding-top: 2rem;
+        background-color: #f25050;
+        width: auto;
+        opacity: 1;
+        height: auto;
+    }
+    .menuHome ul li{
+        list-style: none;
+        padding: 0 1rem;
+        background-color: #f25050;
+    }
+    .menuHome ul li a{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 18px;
+        background-color: #f25050;
+        color: #F4F4F4;
+    
+    }
+    .boxSearch{
+        padding-top: 1.25rem;
+        float: left;
+        width: 30%;
+        padding-left: 7%;
+        background-color: #f25050;
+    }
+    .boxSearch input{
+        padding: 0.7rem 1.5rem;
+        border-radius: 50px;
+        width: 92%;
+        font-size: 15px;
+        border: 1px solid silver;
+        position: relative;
+    }
+    .boxSearch input:hover{
+        border: 1px solid silver;
+    }
+    .boxSearch img{
+        width: 35px;
+        height: 35px;
+        margin-left: 16.7%;
+        margin-top: -38px;
+        position: absolute;
+        cursor: pointer;
+    }
+    .boxCart{
+        padding-top: 1.5rem;
+        float: left;
+        width: 15%;
+        text-align: right;
+        background-color: #f25050;
+    
+    }
+    .boxCart i{
+        cursor: pointer;
+        background-color: #f25050;
+        font-size: 20px;
+        padding: 10px;
+        color: #F4F4F4;
+        width: 25%;
+    }
+    .boxCart a:first-child{
+        position: relative;
+    }
+    .boxCart span{
+        position: absolute;
+        padding: 5px 8px;
+        border-radius: 50%;
+        top: -23px;
+        left: 50px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .main{
+        width: 60%;
+        padding: 0 20%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .banner{
+        width: 100%;
+        height: 450px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .textBanner{
+        width: 40%;
+        float: left;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10px;
+        padding: 0;
+
+    }
+    .imgBanner{
+        width: 50%;
+        float: right;
+        text-align: center;
+        margin-top: 0;
+    }
+    .textBanner img{
+        width: 150px;
+        height: 150px;
+    }
+    .imgBanner img{
+        width: 350px;
+        height: 350px;
+        border-radius: 5px;
+    }
+    .textBanner h1{
+        color: #323032;
+        padding: 10px 0;
+    }
+    .textBanner span{
+        color: #f25050;
+    }
+    .review{
+        text-align: justify;
+        padding: 0;
+        -webkit-line-clamp: 7;
+        margin: 10px 0;
+    }
+    .btnBuyNow{
+        padding: 15px 40px;
+        border-radius: 50px;
+        background: #f25050;
+        border: 1px solid #f25050;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    .btnDetail{
+        padding: 15px 40px;
+        border-radius: 50px;
+        background: #9e9a9a;
+        border: 1px solid #9e9a9a;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .btnBuyNow:hover{
+        background: #e14b3e;
+        border: 1px solid #e14b3e;
+    }
+    .btnDetail:hover{
+        background: #7e7a7a;
+        border: 1px solid #7e7a7a;
+    }
+    .serve{
+        text-align: center;
+        min-height: auto;
+    }
+    .rate{
+        text-align: center;
+    }
+    .rate h1{
+        padding: 20px 0;
+    }
+    .boxServe{
+        display: flex;
+        justify-content: center;
+    }
+    .serve h1{
+        padding: 20px 0;
+    }
+    .itemServe{
+        width: 30%;
+        border-radius: 20px;
+        margin: 0 9px;
+        padding: 10px;
+        text-align: center;
+        float: left;
+        background: white;
+    }
+    .itemRate{
+        width: 30%;
+        background-color: white;
+        border-radius: 20px;
+        margin: 0 9px;
+        padding: 10px;
+        text-align: left;
+        float: left;
+        height: 175px;
+    }
+    .itemRate img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        float: left;
+        margin: 10px;
+    }
+    .itemRate h3{
+        background-color: white;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .timeRate{
+        background-color: white;
+        font-size: 11px;
+        padding: 7px 0;
+    }
+    .itemRate p{
+        background-color: white;
+        text-align: justify;
+        padding: 10px;
+    }
+    .itemServe img{
+        width: 70px;
+        height: 70px;
+    }
+    .itemServe h3{
+        background-color: white;
+        text-align: center;
+    }
+    .itemServe p{
+        background-color: white;
+        text-align: justify;
+        padding: 20px;
+    }
+    span{
+        color:#f25050;
+    }
+    .boxDacSan{
+        margin-top: 50px;
+        min-height: 1150px;
+    }
+    .boxDacSan h1{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .slideBanner{
+        border: 1px solid silver;
+        border-radius: 15px;
+    }
+    .listDacSan{
+        display: block;
+        text-align: center;
+        margin-left: 3.5%;
+    }
+    .itemDacSan{
+        width: 25%;
+        border: 1px solid #f25050;
+        padding: 1% 2%;
+        float: left;
+        border-radius: 20px;
+        margin: 1.5%;
+        text-align: center;
+        background: white;
+    }
+    .itemDacSan img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 1px solid silver;
+        background: white;
+    }
+    .dacsanName{
+        padding: 10px 0;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: left;
+        background: white;
+    }
+    .dacsanReview{
+        font-size: 13.2px;
+        text-align: left;
+        background: white;
+        display: block;
+          display: -webkit-box;
+          line-height: 1.3;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        margin-bottom: 10px;
+    }
+    .dacsanPrice{
+        color: #f25050;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: left;
+        padding-bottom: 10px;
+        background: white;
+    }
+    .btnAddToCart{
+        padding: 13px 0;
+        border-radius: 20px;
+        color: #f25050;
+        border: 1px solid #f25050;
+        font-size: 13px;
+        cursor: pointer;
+        width: 135px;
+        margin: 10px 0;
+        float: left;
+        background: white;
+    }
+    .btnAddToCart:hover{
+        background: #e14b3e;
+        border: 1px solid #e14b3e;
+        color: white;
+    }
+    .btnBuyNowItem:hover{
+        background: #e14b3e;
+        border: 1px solid #e14b3e;
+    }
+    .btnBuyNowItem{
+        padding: 13px 0;
+        border-radius: 20px;
+        background: #f25050;
+        border: 1px solid #f25050;
+        color: white;
+        font-size: 13px;
+        cursor: pointer;
+        width: 135px;
+        margin: 10px 0;
+        float: right;
+    }
+    .average-rating {
+        position: relative;
+        appearance: none;
+        color: transparent;
+        width: auto;
+        display: inline-block;
+        vertical-align: baseline;
+        margin-bottom: 15px;
+      }
+    .average-rating::before {
+        --percent: calc(2.5/5*100%);
+        content: '★★★★★';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: rgba(0,0,0,0.2);
+        background:
+          linear-gradient(90deg, gold var(--percent), rgba(0,0,0,0.2) var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    .liRate{
+        display: flex;
+    }
+    .whyChoosen{
+        text-align: center;
+        margin-top: 100px;
+        height: 450px;
+        min-height: 0;
+    }
+    .itemWhy{
+        width: 30%;
+        border-radius: 20px;
+        margin: 0 9px;
+        padding: 10px;
+        text-align: center;
+        float: left;
+        background: white;
+        height: 235px;
+    }
+    .itemWhy img{
+        background-color: white;
+    }
+    .boxItemWhy{
+        margin-top: 20px;
+    }
+    .explain{
+        width: 60%;
+        padding: 15px 20%;
+        font-size: 14px;
+    }
+    .itemWhy h3{
+        color: #333333;
+        padding: 10px 0;
+        background-color: white;
+    }
+    .itemWhy p{
+        text-align: justify;
+        font-size: 14px;
+        background: white;
+        padding: 0 20px;
+    }
+    .footer{
+        width: 60%;
+        padding: 0 20%;
+        height: 210px;
+        background: #f25050;
+        color: white;
+        min-height: auto;
+    }
+    .footer1{
+        width: 35%;
+        float: left;
+        padding: 2.5%;
+        text-align: center;
+        background: #f25050;
+    }
+    .footer1 img{
+        width: 300px;
+        height: 75px;
+        background: #f25050;
+    }
+    .footer1 p{
+        text-align: center;
+        background: #f25050;
+        color: yellow;
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .footer2{
+        width: 25%;
+        float: left;
+        padding: 2% 2.5%;
+        background: #f25050;
+        color: white;
+    }
+    .footer2 h3{
+        background: #f25050;
+        padding-bottom: 15px;
+        color: white;
+    
+    }
+    .footer2 li{
+        background: #f25050;
+        list-style: none;
+        padding: 10px 0;
+    }
+    .footer2 a{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+    
+    }
+    .footer2 i{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+    }
+    sup{
+        color:#f25050;
+        background-color: white;
+    }
+    .footer3{
+        width: 25%;
+        float: left;
+        padding: 2% 2.5%;
+        background: #f25050;
+        color: white;
+    }
+    .footer3 h3{
+        background: #f25050;
+        padding-bottom: 15px;
+        color: white;
+    
+    }
+    .footer3 li{
+        background: #f25050;
+        list-style: none;
+        padding: 10px 0;
+    }
+    .footer3 a{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+    
+    }
+    sup{
+        color:#f25050;
+        background-color: white;
+    }
+    .footer3 i{
+        background: #f25050;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+    }
+    .priceBanner{
+        color: #f25050;
+        font-weight: 700;
+        font-size: 17px;
+    }
+}
