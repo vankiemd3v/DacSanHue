@@ -9,38 +9,38 @@
 
 @media(min-width : 320px) {
     .span{
-        background: #ee4444;
+        background: #e82d2d;
     }
     .header{
         width: 100%;
         padding: 0;
         min-height: 140px;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     }
     .boxLogo img{
         width: 200px;
         height: 50px;
         margin-top: 0.6rem;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     
     }
     .boxLogo{
         float: left;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         text-align: center;
         width: 76%;
         position: relative;
         margin-left: 4%;
     }
     .bars{
-        background-color: #ee4444;
+        background-color: #e82d2d;
     position: absolute;
     top: 28px;
-    right: -50px;
+    right: -52px;
     font-size: 30px;
     }
     .bars i{
-        background-color: #ee4444;
+        background-color: #e82d2d;
         color: white;
     }
     .menuHome{
@@ -50,7 +50,7 @@
         display: block;
         float: left;
         padding-top: 0;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         width: 76%;
         text-align: center;
         margin-left: 4%;
@@ -67,13 +67,13 @@
     .menuHome ul li{
         list-style: none;
         padding: .5rem 0;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     }
     .menuHome ul li a{
         text-decoration: none;
         font-weight: 700;
         font-size: 18px;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         color: #F4F4F4;
     
     }
@@ -82,7 +82,7 @@
         float: left;
         width: 76%;
         padding-left: 4%;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         padding-bottom: 19px;
     }
     .boxSearch input{
@@ -109,12 +109,12 @@
         float: left;
         width: 19%;
         text-align: left;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         padding-bottom: 14px;
     }
     .boxCart i{
         cursor: pointer;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         font-size: 30px;
         padding: 10px;
         color: #F4F4F4;
@@ -135,7 +135,7 @@
     left: 38px;
     font-size: 14px;
     font-weight: bold;
-    color: #ee4444;
+    color: #e82d2d;
     }
     .main{
         width: 100%;
@@ -192,14 +192,14 @@
         margin-bottom: 0;
     }
     .textBanner span{
-        color: #ee4444;
+        color: #e82d2d;
     background: none;
     }
     .btnBuyNow{
         padding: 15px 40px;
     border-radius: 50px;
-    background: #ee4444;
-    border: 1px solid #ee4444;
+    background: #e82d2d;
+    border: 1px solid #e82d2d;
     color: white;
     font-size: 17px;
     cursor: pointer;
@@ -306,11 +306,11 @@
         border-radius: 20px;
     }
     span{
-        color:#ee4444;
+        color:#e82d2d;
     }
     .boxDacSan{
         margin-top: 50px;
-        min-height: 1325px;
+        min-height: 1500px;
     }
     .boxDacSan h1{
         padding: 20px 0;
@@ -362,7 +362,7 @@
         padding: 0 10px;
     }
     .dacsanPrice{
-        color: #ee4444;
+        color: #e82d2d;
     font-weight: 700;
     font-size: 17px;
     text-align: center;
@@ -372,8 +372,8 @@
     .btnAddToCart{
         padding: 13px 0;
     border-radius: 20px;
-    color: #ee4444;
-    border: 1px solid #ee4444;
+    color: #e82d2d;
+    border: 1px solid #e82d2d;
     font-size: 13px;
     cursor: pointer;
     width: 90%;
@@ -385,8 +385,8 @@
     .btnBuyNowItem{
         padding: 13px 0;
     border-radius: 20px;
-    background: #ee4444;
-    border: 1px solid #ee4444;
+    background: #e82d2d;
+    border: 1px solid #e82d2d;
     color: white;
     font-size: 13px;
     cursor: pointer;
@@ -465,7 +465,7 @@
         width: 100%;
         padding: 0;
         min-height: 320px;
-        background: #ee4444;
+        background: #e82d2d;
         color: white;
     }
     .footer1{
@@ -473,16 +473,16 @@
         float: left;
         padding: 5%;
         text-align: center;
-        background: #ee4444;
+        background: #e82d2d;
     }
     .footer1 img{
         width: 300px;
         height: 75px;
-        background: #ee4444;
+        background: #e82d2d;
     }
     .footer1 p{
         text-align: center;
-        background: #ee4444;
+        background: #e82d2d;
         color: yellow;
         margin-top: 10px;
         font-size: 17px;
@@ -492,33 +492,33 @@
         width: 52%;
         float: left;
         padding-left: 13%;
-        background: #ee4444;
+        background: #e82d2d;
         color: white;
     }
     .footer2 h3{
-        background: #ee4444;
+        background: #e82d2d;
         padding-bottom: 15px;
         color: white;
     
     }
     .footer2 li{
-        background: #ee4444;
+        background: #e82d2d;
         list-style: none;
         padding: 10px 0;
     }
     .footer2 a{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 14px;
         color: white;
     
     }
     sup{
-        color:#ee4444;
+        color:#e82d2d;
         background-color: white;
     }
     .footer2 i{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 18px;
         color: white;
@@ -528,39 +528,39 @@
         width: 33%;
         float: left;
         padding: 1%;
-        background: #ee4444;
+        background: #e82d2d;
         color: white;
     }
     .footer3 h3{
-        background: #ee4444;
+        background: #e82d2d;
         padding-bottom: 15px;
         color: white;
     
     }
     .footer3 li{
-        background: #ee4444;
+        background: #e82d2d;
         list-style: none;
         padding: 10px 0;
     }
     .footer3 a{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 14px;
         color: white;
     
     }
     sup{
-        color:#ee4444;
+        color:#e82d2d;
         background-color: white;
     }
     .footer3 i{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 18px;
         color: white;
     }
     .priceBanner{
-        color: #ee4444;
+        color: #e82d2d;
         font-weight: 700;
         font-size: 17px;
         padding: 5px 0 10px 0;
@@ -583,18 +583,18 @@
         width: 60%;
         padding: 0 20%;
         min-height: 80px;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     }
     .boxLogo img{
         width: 200px;
         height: 50px;
         margin-top: 0.6rem;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     
     }
     .boxLogo{
         float: left;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         width: auto;
         margin-left: 0;
     }
@@ -605,7 +605,7 @@
         display: flex;
         float: left;
         padding-top: 2rem;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         width: auto;
         opacity: 1;
         height: auto;
@@ -614,13 +614,13 @@
     .menuHome ul li{
         list-style: none;
         padding: 0 1rem;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     }
     .menuHome ul li a{
         text-decoration: none;
         font-weight: 700;
         font-size: 18px;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         color: #F4F4F4;
     
     }
@@ -629,7 +629,7 @@
         float: left;
         width: 30%;
         padding-left: 7%;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     }
     .boxSearch input{
         padding: 0.7rem 1.5rem;
@@ -655,12 +655,12 @@
         float: left;
         width: 15%;
         text-align: right;
-        background-color: #ee4444;
+        background-color: #e82d2d;
     
     }
     .boxCart i{
         cursor: pointer;
-        background-color: #ee4444;
+        background-color: #e82d2d;
         font-size: 20px;
         padding: 10px;
         color: #F4F4F4;
@@ -727,7 +727,7 @@
         padding: 10px 0;
     }
     .textBanner span{
-        color: #ee4444;
+        color: #e82d2d;
     }
     .review{
         text-align: justify;
@@ -738,8 +738,8 @@
     .btnBuyNow{
         padding: 15px 40px;
         border-radius: 50px;
-        background: #ee4444;
-        border: 1px solid #ee4444;
+        background: #e82d2d;
+        border: 1px solid #e82d2d;
         color: white;
         font-size: 17px;
         cursor: pointer;
@@ -835,7 +835,7 @@
         padding: 20px;
     }
     span{
-        color:#ee4444;
+        color:#e82d2d;
     }
     .boxDacSan{
         margin-top: 50px;
@@ -890,7 +890,7 @@
         padding: 0 10px;
     }
     .dacsanPrice{
-        color: #ee4444;
+        color: #e82d2d;
         font-weight: 700;
         font-size: 17px;
         text-align: left;
@@ -901,8 +901,8 @@
     .btnAddToCart{
         padding: 13px 0;
         border-radius: 20px;
-        color: #ee4444;
-        border: 1px solid #ee4444;
+        color: #e82d2d;
+        border: 1px solid #e82d2d;
         font-size: 13px;
         cursor: pointer;
         width: 155px;
@@ -912,8 +912,8 @@
         margin-left: 10px;
     }
     .btnAddToCart:hover{
-        background: #ee4444;
-        border: 1px solid #ee4444;
+        background: #e82d2d;
+        border: 1px solid #e82d2d;
         color: white;
     }
     .btnBuyNowItem:hover{
@@ -923,8 +923,8 @@
     .btnBuyNowItem{
         padding: 13px 0;
         border-radius: 20px;
-        background: #ee4444;
-        border: 1px solid #ee4444;
+        background: #e82d2d;
+        border: 1px solid #e82d2d;
         color: white;
         font-size: 13px;
         cursor: pointer;
@@ -998,7 +998,7 @@
         width: 60%;
         padding: 0 20%;
         height: 210px;
-        background: #ee4444;
+        background: #e82d2d;
         color: white;
         min-height: auto;
     }
@@ -1007,16 +1007,16 @@
         float: left;
         padding: 2.5%;
         text-align: center;
-        background: #ee4444;
+        background: #e82d2d;
     }
     .footer1 img{
         width: 300px;
         height: 75px;
-        background: #ee4444;
+        background: #e82d2d;
     }
     .footer1 p{
         text-align: center;
-        background: #ee4444;
+        background: #e82d2d;
         color: yellow;
         margin-top: 10px;
         font-size: 17px;
@@ -1026,74 +1026,74 @@
         width: 25%;
         float: left;
         padding: 2% 2.5%;
-        background: #ee4444;
+        background: #e82d2d;
         color: white;
     }
     .footer2 h3{
-        background: #ee4444;
+        background: #e82d2d;
         padding-bottom: 15px;
         color: white;
     
     }
     .footer2 li{
-        background: #ee4444;
+        background: #e82d2d;
         list-style: none;
         padding: 10px 0;
     }
     .footer2 a{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 14px;
         color: white;
     
     }
     .footer2 i{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 18px;
         color: white;
     }
     sup{
-        color:#ee4444;
+        color:#e82d2d;
         background-color: white;
     }
     .footer3{
         width: 25%;
         float: left;
         padding: 2% 2.5%;
-        background: #ee4444;
+        background: #e82d2d;
         color: white;
     }
     .footer3 h3{
-        background: #ee4444;
+        background: #e82d2d;
         padding-bottom: 15px;
         color: white;
     
     }
     .footer3 li{
-        background: #ee4444;
+        background: #e82d2d;
         list-style: none;
         padding: 10px 0;
     }
     .footer3 a{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 14px;
         color: white;
     
     }
     sup{
-        color:#ee4444;
+        color:#e82d2d;
         background-color: white;
     }
     .footer3 i{
-        background: #ee4444;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 18px;
         color: white;
     }
     .priceBanner{
-        color: #ee4444;
+        color: #e82d2d;
     font-weight: 700;
     font-size: 17px;
     background: white;
