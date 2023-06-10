@@ -326,12 +326,12 @@
     }
     .itemDacSan{
         width: 43.4%;
-    padding: 1% 2%;
-    float: left;
-    border-radius: 20px;
-    margin: 1%;
-    text-align: center;
-    background: white;
+        padding: 20px 2%;
+        float: left;
+        border-radius: 20px;
+        margin: 10px 1%;
+        text-align: center;
+        background: white;
     }
     .itemDacSan img{
         width: 150px;
@@ -341,11 +341,11 @@
         background: white;
     }
     .dacsanName{
-        padding: 10px 0;
-        font-weight: 700;
-        font-size: 18px;
-        text-align: left;
-        background: white;
+        padding: 10px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    background: white;
     }
     .dacsanReview{
         font-size: 13.2px;
@@ -359,26 +359,28 @@
           overflow: hidden;
           text-overflow: ellipsis;
         margin-bottom: 10px;
+        padding: 0 10px;
     }
     .dacsanPrice{
         color: #ee4444;
-        font-weight: 700;
-        font-size: 17px;
-        text-align: left;
-        padding-bottom: 10px;
-        background: white;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    background: white;
+    padding: 0 10px 10px 10px;
     }
     .btnAddToCart{
         padding: 13px 0;
-        border-radius: 20px;
-        color: #ee4444;
-        border: 1px solid #ee4444;
-        font-size: 13px;
-        cursor: pointer;
-        width: 100%;
-        margin: 5px 0;
-        float: left;
-        background: white;
+    border-radius: 20px;
+    color: #ee4444;
+    border: 1px solid #ee4444;
+    font-size: 13px;
+    cursor: pointer;
+    width: 90%;
+    margin: 5px 0;
+    float: left;
+    background: white;
+    margin-left: 5%;
     }
     .btnBuyNowItem{
         padding: 13px 0;
@@ -388,9 +390,10 @@
     color: white;
     font-size: 13px;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
     margin: 5px 0;
-    float: right;
+    float: left;
+    margin-left: 5%;
     }
     .average-rating {
         position: relative;
