@@ -286,7 +286,7 @@
 
         display: -webkit-box;
         line-height: 1.3;
-        -webkit-line-clamp: 3;
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -572,6 +572,8 @@
     header{
         width: 100%;
         height: auto;
+        background-color: #e82d2d;
+        padding: 0;
     }
     .bars{
         display: none;
@@ -580,10 +582,10 @@
         display: contents;
     }
     .header{
-        width: 60%;
-        padding: 0 20%;
+        width: 961px;
+        padding: 0;
         min-height: 80px;
-        background-color: #e82d2d;
+        margin: 0 auto;
     }
     .boxLogo img{
         width: 200px;
@@ -627,9 +629,10 @@
     .boxSearch{
         padding-top: 1.25rem;
         float: left;
-        width: 30%;
-        padding-left: 7%;
+        width: 29%;
+        padding-left: 0;
         background-color: #e82d2d;
+        position: relative;
     }
     .boxSearch input{
         padding: 0.7rem 1.5rem;
@@ -645,7 +648,7 @@
     .boxSearch img{
         width: 35px;
         height: 35px;
-        margin-left: 16.7%;
+        margin-left: 92%;
         margin-top: -38px;
         position: absolute;
         cursor: pointer;
@@ -678,11 +681,14 @@
         font-size: 12px;
         font-weight: bold;
     }
+    main{
+        width: 100%;
+    }
     .main{
-        width: 60%;
-        padding: 0 20%;
+        width: 961px;
+        padding: 0;
         height: auto;
-        margin-top: 50px;
+        margin: 50px auto;
     }
     .banner{
         width: 100%;
@@ -693,24 +699,22 @@
         border-radius: 20px;
     }
     .textBanner{
-        width: 35%;
+        width: 45%;
     float: left;
     text-align: center;
     padding-left: 10%;
     padding-top: 10px;
-    /* padding: 0; */
     background: white;
     padding-bottom: 41px;
     height: 305px;
-
     }
     .imgBanner{
-        width: 50%;
-        float: right;
-        text-align: center;
-        margin-top: 0;
-        background: white;
-        height: 356px;
+        width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 0;
+    background: white;
+    height: 356px;
     }
     .textBanner img{
         width: 150px;
@@ -780,24 +784,52 @@
     .serve h1{
         padding: 20px 0;
     }
-    .itemServe{
-        width: 30%;
+    .itemServe:first-child{
+        width: 32%;
         border-radius: 20px;
-        margin: 0 9px;
         padding: 10px;
         text-align: center;
         float: left;
         background: white;
+        margin: 0;
+    }
+    .itemServe:last-child{
+        width: 32%;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        float: left;
+        background: white;
+        margin: 0;
+    }
+    .itemServe{
+        width: 32%;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        float: left;
+        background: white;
+        margin: 0 2%;
     }
     .itemRate{
-        width: 30%;
+        width: 32%;
         background-color: white;
         border-radius: 20px;
-        margin: 0 9px;
-        padding: 10px;
+        margin: 0;
+        padding: 0;
         text-align: left;
         float: left;
-        height: 175px;
+        height: 190px;
+    }
+    .itemRate:nth-child(3n-1){
+        width: 32%;
+        background-color: white;
+        border-radius: 20px;
+        margin: 0 2%;
+        padding: 0;
+        text-align: left;
+        float: left;
+        height: 190px;
     }
     .itemRate img{
         width: 80px;
@@ -819,7 +851,8 @@
     .itemRate p{
         background-color: white;
         text-align: justify;
-        padding: 0 10px;
+        padding: 0 20px;
+        font-size: 14px;
     }
     .itemServe img{
         width: 70px;
@@ -853,10 +886,19 @@
         text-align: center;
     }
     .itemDacSan{
-        width: 30%;
+        width: 32%;
         border-radius: 20px;
-        margin: 9px;
-        padding: 10px;
+        margin: 2% 0 2% 0;
+        padding: 0;
+        text-align: center;
+        float: left;
+        background: white;
+    }
+    .itemDacSan:nth-child(3n-1){
+        width: 32%;
+        border-radius: 20px;
+        margin: 2%;
+        padding: 0;
         text-align: center;
         float: left;
         background: white;
@@ -867,12 +909,13 @@
         border-radius: 50%;
         border: 1px solid silver;
         background: white;
+        margin-top: 10px;
     }
     .dacsanName{
         padding: 10px 10px;
         font-weight: 700;
         font-size: 18px;
-        text-align: left;
+        text-align: center;
         background: white;
     }
     .dacsanReview{
@@ -893,7 +936,7 @@
         color: #e82d2d;
         font-weight: 700;
         font-size: 17px;
-        text-align: left;
+        text-align: center;
         padding-bottom: 10px;
         background: white;
         padding: 0 10px 10px 10px;
@@ -905,11 +948,10 @@
         border: 1px solid #e82d2d;
         font-size: 13px;
         cursor: pointer;
-        width: 155px;
-        margin: 10px 0;
+        width: 140px;
+        margin: 10px 0 20px 10px;
         float: left;
         background: white;
-        margin-left: 10px;
     }
     .btnAddToCart:hover{
         background: #e82d2d;
@@ -928,7 +970,7 @@
         color: white;
         font-size: 13px;
         cursor: pointer;
-        width: 155px;
+        width: 140px;
         margin: 10px 10px 10px 0;
         float: right;
     }
@@ -963,14 +1005,24 @@
         min-height: 0;
     }
     .itemWhy{
-        width: 30%;
+        width: 32%;
         border-radius: 20px;
-        margin: 0 9px;
-        padding: 10px;
+        margin: 0;
+        padding: 0;
         text-align: center;
         float: left;
         background: white;
-        height: 235px;
+        height: 270px;
+    }
+    .itemWhy:nth-child(3n-1){
+        width: 32%;
+        border-radius: 20px;
+        margin: 0 2%;
+        padding: 0;
+        text-align: center;
+        float: left;
+        background: white;
+        height: 270px;
     }
     .itemWhy img{
         background-color: white;
