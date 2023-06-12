@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-color: #F4F4F4;
+    background-color: #e8e3e3;
     color: #333333;
 }
 
@@ -51,7 +51,7 @@
         margin-left: 0;
     }
     .menuHome ul{
-        display: block;
+        display: none;
         float: left;
         padding-top: 0;
         background-color: #e82d2d;
@@ -65,10 +65,11 @@
         opacity: 1;
     height: auto;
     position: absolute;
-    top: 65px;
+    top: 60px;
+    display: grid;
 }
     .active1{
-        min-height: 190px;
+        min-height: 165px;
     }
     .menuHome ul li{
         list-style: none;
@@ -80,7 +81,7 @@
         font-weight: 700;
         font-size: 18px;
         background-color: #e82d2d;
-        color: #F4F4F4;
+        color: #f9f9f9;
     
     }
     .boxSearch{
@@ -125,7 +126,7 @@
     background-color: #e82d2d;
     font-size: 25px;
     padding: 10px;
-    color: #F4F4F4;
+    color: #f9f9f9;
     width: 25%;
     }
     .boxCart a:first-child{
@@ -139,11 +140,12 @@
         position: absolute;
     padding: 2px 5px;
     border-radius: 50%;
-    top: -19px;
+    top: -21px;
     left: 35px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     color: #e82d2d;
+    background: #f9f9f9;
     }
     .main{
         width: 100%;
@@ -224,8 +226,8 @@
         cursor: pointer;
     }
     .btnBuyNow:hover{
-        background: #e14b3e;
-        border: 1px solid #e14b3e;
+        background: #dc0a0a;
+        border: 1px solid #dc0a0a;
     }
     .btnDetail:hover{
         background: #7e7a7a;
@@ -367,15 +369,15 @@
           overflow: hidden;
           text-overflow: ellipsis;
         margin-bottom: 10px;
-        padding: 0 10px;
+        padding: 0;
     }
     .dacsanPrice{
         color: #e82d2d;
     font-weight: 700;
-    font-size: 17px;
-    text-align: center;
+    font-size: 15px;
+    text-align: left;
     background: white;
-    padding: 0 10px 10px 10px;
+    padding: 0;
     }
     .btnAddToCart{
         padding: 13px 0;
@@ -384,11 +386,12 @@
     border: 1px solid #e82d2d;
     font-size: 13px;
     cursor: pointer;
-    width: 90%;
+    width: 100%;
     margin: 5px 0;
     float: left;
     background: white;
-    margin-left: 5%;
+    margin-left: 0;
+    margin-top: 20px;
     }
     .btnBuyNowItem{
         padding: 13px 0;
@@ -398,10 +401,10 @@
     color: white;
     font-size: 13px;
     cursor: pointer;
-    width: 90%;
+    width: 100%;
     margin: 5px 0;
     float: left;
-    margin-left: 5%;
+    margin-left: 0;
     }
     .average-rating {
         position: relative;
@@ -590,7 +593,7 @@
         font-size: 14px;
     }
     .titleCart{
-        padding: 10px 2%;
+        padding: 10px 5%;
         height: 15px;
     }
     .contentCart{
@@ -653,10 +656,10 @@
     }
     .cartItemNumber{
         float: right;
-        background: white;
-        position: absolute;
-        top: 38px;
-        right: 15px;
+    background: white;
+    position: absolute;
+    top: 38px;
+    right: 5%;
     }
     .minus{
         background-color: white;
@@ -701,7 +704,7 @@
         background-color: white;
     }
     .totalPayment{
-        padding: 15px 2.5% 15px 5%;
+        padding: 15px 5%;
     background-color: white;
         border-bottom: 1px solid #e1e1e1;
         height: 18px;
@@ -713,6 +716,7 @@
     .totalPayment span{
         background-color: white;
         float: right;
+        font-weight: 700;
     }
     .inforCustomer{
         background: white;
@@ -757,10 +761,503 @@
         border: none;
         border-radius: 5px;
         color: white;
-        background: linear-gradient(180deg,#fc675c,#e82d2d) ;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 15px;
         font-weight: 500;
+    }
+    .listImage{
+        width: 100%;
+        float: left;
+    }
+    .listImage li{
+        background-color: white;
+    }
+    .listImage ul li img{
+        background-color: white;
+        border-radius: 5px;
+    }
+    .lSAction a{
+        background: none;
+    }
+    .description{
+        width: 100%;
+        margin-left: 0%;
+        background-color: white;
+        height: 565px;
+        float: right;
+        text-align: left;
+        font-size: 21px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .detailName{
+        background-color: white;
+        font-size: 21px;
+        color: #333;
+        font-weight: 700;
+        padding: 10px 5%;
+        border-radius: 5px;
+    }
+    .detailPrice{
+        background-color: white;
+        font-size: 18px;
+        color: #e82d2d;
+        font-weight: 700;        
+        padding: 10px 5%;
+
+    }
+    .detailElement{
+        text-align: justify;
+        padding: 10px 5%;
+        background-color: white;
+    }
+    .btnDetailBuyNow{
+        padding: 15px;
+        width: 90%;
+        margin-left: 5%;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #e82d2d;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+    .btnPhoneSupport{
+        padding: 10px;
+        width: 45%;
+        margin-left: 5%;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #107900;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .btnPhoneSupport i{
+        background-color: #107900;
+        color: white;
+    }
+    .btnChatZalo{
+        padding: 10px;
+        width: 44%;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #0b76b4;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .btnChatZalo i{
+        background: #0b76b4;
+
+        color: white;
+    }
+    .detailRating{
+        background-color: white;
+        text-align: left;
+        padding: 0 5%;
+        margin-bottom: 30px;
+    }
+    .detailSold{
+        background-color: white;
+        padding: 10px 5%;
+        color: rgb(90, 150, 0);
+        font-size: 13px;
+    }
+    .numberRate{
+        float: left;
+        margin-left: 90px;
+        background-color: white;
+        margin-top: 7px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #757575;
+    }
+    .detailContact{
+        background-color: white;
+        padding: 0 5%;
+        font-size: 15px;
+        font-weight: 700;
+        color: #e82d2d;
+    }
+    .detailShip{
+        padding: 10px 5%;
+        background-color: white;
+    }
+    .detailInfor{
+        height: 600px;
+    }
+    .descriptionProduct{
+        background-color: white;
+    padding: 0 2%;
+    width: 96%;
+    text-align: justify;
+    float: left;
+    height: 298px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 20px;
+    }
+    .descriptionProduct h4{
+        text-align: center;
+        background-color: white;
+        padding: 10px 0;
+    }
+    .contentDescription{
+        background-color: white;
+        overflow: hidden;
+        height: 220px;
+    }
+    .diffProduct{
+        margin-left: 0;
+        width: 100%;
+        float: right;
+    }
+    .diffProduct h4{
+        text-align: center;
+        background-color: white;
+        padding: 10px 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .diffItem{
+        height: 100px;
+        background-color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .diffItem img{
+        width: 100px;
+        height: 100px;
+        float: left;
+        background-color: white;
+        border-radius: 5px;
+
+    }
+    .diffName{
+        margin-left: 110px;
+        font-size: 15px;
+        color: #333333;
+        font-weight: 700;
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        background-color: white;
+        width: 158px;
+    }
+    .diffPrice{
+        color: #c2291b;
+        margin-left: 110px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+    .diffItem meter{
+        background-color: white;
+        margin-left: 10px;
+    }
+    .viewDescription{
+        margin: 0 auto;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+    color: #2f80ed;
+    border: none;
+    margin-left: 30%;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #2f80ed;
+    }
+    .viewDescription i{
+        background-color: white;
+        color: #2f80ed;
+    }
+    .viewShort i{
+        background-color: white;
+        color: #2f80ed;
+    }
+    .viewShort{
+        margin: 0 auto;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+    color: #2f80ed;
+    border: none;
+    margin-left: 30%;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #2f80ed;
+    display: none;
+    }
+    .userRate{
+        width: 100%;
+        height: auto;
+        clear: left;
+        border-radius: 5px;
+        background: white;
+    }
+    .pointRate{
+        border-bottom: 1px solid #e1e1e1;
+        height: auto;
+        background: white;
+        padding-bottom: 15px;
+    }
+    .pointRate h4{
+        background: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .totalRate{
+        background: white;
+        
+        height: 30px;
+    }
+    .totalRate p{
+        float: left;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 2px;
+    font-size: 23px;
+    color: #fe8c23;
+    font-weight: 700;
+    }
+    .totalRate meter{
+        float: left;
+        margin-left: 10px;
+    }
+    .itemPointRate{
+        background-color: white;
+        padding: 10px 0;
+    }
+    .timelineStar{
+        background-color: #eee;
+        height: 4px;
+        position: relative;
+        width: 100px;
+        float: left;
+        top: 5px;
+        left: 10px;
+    }
+    .timing{
+        background-color: #fe8c23;
+        left: 0;
+        height: 4px;
+        position: absolute;
+        top: 0;
+        width: 80%;
+    }
+    .sao{
+        background-color: white;
+        clear: left;
+        margin-left: 20px;
+        float: left;
+        font-size: 14px;
+        margin-top: -2px;
+    }
+    .sao i{
+        background-color: white;
+    }
+    .itemPointRate i{
+        font-size: 12px;
+    }
+    .tilePhanTram{
+        background-color: white;
+        margin-left: 20px;
+        font-size: 14px;
+        float: left;
+    }
+    .contentRate{
+        background-color: white;
+        padding: 10px 20px;
+    }
+    .itemContentRate{
+        background-color: white;
+        position: relative;
+        border-bottom: 1px solid #e1e1e1;
+        padding: 10px 0;
+    }
+    .rateName{
+        background-color: white;
+        font-weight: 700;
+    }
+    .rateContent{
+        margin-top: 30px;
+        background-color: white;
+    }
+    .rateTime{
+        position: absolute;
+        top: 10px;
+        right: 0;
+        background-color: white;
+    }
+    .paging{
+        background-color: white;
+        margin-top: 5px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .paging a{
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .activeRate{
+        background-color: #2f80ed;
+        color: white;
+    }
+    .viewShortLong{
+        position: absolute;
+    width: 95%;
+    height: 40px;
+    top: 210px;
+    background: linear-gradient(to bottom,rgba(255 255 255/0),rgba(255 255 255/62.5),rgba(255 255 255/1));
+    padding-top: 40px;
+    }
+    .titleHome{
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    .titleHome a{
+        text-decoration: none;
+        color: #288ad6;
+    }
+    .titleHome i{
+        color: #288ad6;
+        padding: 0 5px;
+    }
+    .postRate{
+        padding: 40px 20px 10px 20px;
+        background: white;
+    }
+    .postRate h4{
+        background-color: white;
+        padding: 10px 0;
+    }
+    .my-rating{
+        background: white;
+    }
+    .jq-star svg{
+        background-color: white;
+    }
+    .postRate form{
+        background-color: white;
+    }
+    .postRate input{
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 70%;
+    }
+    .contentPostRate{
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 70%;
+    }
+    .btnPostRate{
+        background-color: white;
+        margin-top: 10px;
+    }
+    .btnPostRate button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #0071e3;
+        background-color: #0071e3;
+        cursor: pointer;
+        color: white;
+    }
+    .itemLike{
+        width: 44%;
+        padding: 10px 2%;
+        float: left;
+        border-radius: 5px;
+        margin: 10px 1%;
+        text-align: center;
+        background: white;
+        position: relative;
+    }
+    .itemLike img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid silver;
+        background: white;
+        margin: 0 auto;
+    }
+    .btnAddToCartLike{
+        padding: 13px 0;
+        border-radius: 20px;
+        color: #e82d2d;
+        border: 1px solid #e82d2d;
+        font-size: 13px;
+        cursor: pointer;
+        width: 90%;
+        margin: 5px 10px;
+        float: left;
+        background: white;
+    }
+    .btnAddToCartLike:hover{
+        background: #e82d2d;
+        border: 1px solid #e82d2d;
+        color: white;
+    }
+    .btnBuyNowItemLike:hover{
+        background: #c2291b;
+        border: 1px solid #c2291b;
+    }
+    .btnBuyNowItemLike{
+        padding: 13px 0;
+        border-radius: 20px;
+        background: #e82d2d;
+        border: 1px solid #e82d2d;
+        color: white;
+        font-size: 13px;
+        cursor: pointer;
+        width: 90%;
+        margin: 5px 10px;
+        float: right;
+    }
+    .dacsanPriceLike{
+        color: #e82d2d;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+    background: white;
+    padding: 0px 10px 10px 10px;
+    }
+    .formatRateLike{
+        position: absolute;
+    top: 247px;
+    right: 84px;
+    font-size: 16px;
+    }
+    .formatRate{
+        position: absolute;
+    top: 259px;
+    right: 90px;
+    font-size: 18px;
     }
 }
 @media(min-width : 768px) {}
@@ -821,13 +1318,13 @@
         font-weight: 700;
         font-size: 18px;
         background-color: #e82d2d;
-        color: #F4F4F4;
+        color: #f9f9f9;
     
     }
     .boxSearch{
         padding-top: 1.25rem;
         float: left;
-        width: 29%;
+        width: 26%;
         padding-left: 0;
         background-color: #e82d2d;
         position: relative;
@@ -854,7 +1351,7 @@
     .boxCart{
         padding-top: 1.5rem;
         float: left;
-        width: 15%;
+        width: 16%;
         text-align: right;
         background-color: #e82d2d;
     
@@ -864,7 +1361,7 @@
         background-color: #e82d2d;
         font-size: 20px;
         padding: 10px;
-        color: #F4F4F4;
+        color: #f9f9f9;
         width: 25%;
     }
     .boxCart a:first-child{
@@ -878,6 +1375,7 @@
         left: 42px;
         font-size: 12px;
         font-weight: bold;
+        background-color: #f9f9f9;
     }
     main{
         width: 100%;
@@ -886,7 +1384,7 @@
         width: 961px;
         padding: 0;
         height: auto;
-        margin: 30px auto;
+        margin: 15px auto;
     }
     .banner{
         width: 100%;
@@ -957,8 +1455,8 @@
         cursor: pointer;
     }
     .btnBuyNow:hover{
-        background: #e14b3e;
-        border: 1px solid #e14b3e;
+        background: #dc0a0a;
+        border: 1px solid #dc0a0a;
     }
     .btnDetail:hover{
         background: #7e7a7a;
@@ -1091,6 +1589,7 @@
         text-align: center;
         float: left;
         background: white;
+        position: relative;
     }
     .itemDacSan:nth-child(3n-1){
         width: 32%;
@@ -1134,10 +1633,16 @@
         color: #e82d2d;
         font-weight: 700;
         font-size: 17px;
-        text-align: center;
+        text-align: left;
         padding-bottom: 10px;
         background: white;
-        padding: 0 10px 10px 10px;
+        padding: 0 10px 10px 40px;
+    }
+    .formatRate{
+        position: absolute;
+        top: 349px;
+        right: 120px;
+        font-size: 20px;
     }
     .btnAddToCart{
         padding: 13px 0;
@@ -1182,14 +1687,13 @@
         margin-bottom: 15px;
       }
     .average-rating::before {
-        --percent: calc(2.5/5*100%);
+        --percent: calc(5/5*100%);
         content: '★★★★★';
         position: absolute;
         top: 0;
         left: 0;
         color: rgba(0,0,0,0.2);
-        background:
-          linear-gradient(90deg, gold var(--percent), rgba(0,0,0,0.2) var(--percent));
+        background: #fe8c23;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -1251,6 +1755,7 @@
         background: #e82d2d;
         color: white;
         min-height: auto;
+        clear: left;
     }
     .footer1{
         width: 35%;
@@ -1430,7 +1935,7 @@
         background: white;
         position: absolute;
         top: 43px;
-        right: 15px;
+        right: 5%;
     }
     .minus{
         background-color: white;
@@ -1440,7 +1945,6 @@
         float: left;
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
-        border-right: none;
         cursor: pointer;
     }
     .minus i{
@@ -1455,23 +1959,24 @@
         float: left;
         border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
-        border-left: none;
         cursor: pointer;
     }
     .plus i{
         background-color: white;
         margin: 8px 10px;
     }
-    .cartItemNumber input{
+    .buyNumber{
         background-color: white;
         height: 30px;
         width: 30px;
         border: 1px solid silver;
+        border-left: none;
+        border-right: none;
         text-align: center;
         float: left;
     }
     .totalPayment{
-        padding: 15px 2.5% 15px 5%;
+        padding: 15px 5%;
     background-color: white;
         border-bottom: 1px solid #e1e1e1;
         height: 18px;
@@ -1526,9 +2031,498 @@
         border: none;
         border-radius: 5px;
         color: white;
-        background: linear-gradient(180deg,#fc675c,#e82d2d) ;
+        background: #e82d2d;
         cursor: pointer;
         font-size: 15px;
         font-weight: 500;
+    }
+    .listImage{
+        width: 50%;
+        float: left;
+    }
+    .listImage li{
+        background-color: white;
+    }
+    .listImage ul li img{
+        background-color: white;
+        border-radius: 5px;
+    }
+    .lSAction a{
+        background: none;
+    }
+    .description{
+        width: 48%;
+        margin-left: 2%;
+        background-color: white;
+        height: 565px;
+        float: right;
+        text-align: left;
+        font-size: 21px;
+        border-radius: 5px;
+        margin-top: 0;
+    }
+    .detailName{
+        background-color: white;
+        font-size: 21px;
+        color: #333;
+        font-weight: 700;
+        padding: 10px 5%;
+        border-radius: 5px;
+    }
+    .detailPrice{
+        background-color: white;
+        font-size: 18px;
+        color: #e82d2d;
+        font-weight: 700;        
+        padding: 10px 5%;
+
+    }
+    .detailElement{
+        text-align: justify;
+        padding: 10px 5%;
+        background-color: white;
+    }
+    .btnDetailBuyNow{
+        padding: 15px;
+        width: 90%;
+        margin-left: 5%;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #e82d2d;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+    .btnPhoneSupport{
+        padding: 10px;
+        width: 45%;
+        margin-left: 5%;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #107900;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .btnPhoneSupport i{
+        background-color: #107900;
+        color: white;
+    }
+    .btnChatZalo{
+        padding: 10px;
+        width: 44%;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #0b76b4;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .btnChatZalo i{
+        background: #0b76b4;
+
+        color: white;
+    }
+    .detailRating{
+        background-color: white;
+        text-align: left;
+        padding: 0 5%;
+        margin-bottom: 30px;
+    }
+    .detailSold{
+        background-color: white;
+        padding: 10px 5%;
+        color: rgb(90, 150, 0);
+        font-size: 13px;
+    }
+    .numberRate{
+        float: left;
+        margin-left: 90px;
+        background-color: white;
+        margin-top: 7px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #757575;
+    }
+    .detailContact{
+        background-color: white;
+        padding: 0 5%;
+        font-size: 15px;
+        font-weight: 700;
+        color: #e82d2d;
+    }
+    .detailShip{
+        padding: 10px 5%;
+        background-color: white;
+    }
+    .detailInfor{
+        height: 600px;
+    }
+    .descriptionProduct{
+        background-color: white;
+    padding: 0 2%;
+    width: 65%;
+    text-align: justify;
+    float: left;
+    height: 298px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 0;
+    }
+    .descriptionProduct h4{
+        text-align: center;
+        background-color: white;
+        padding: 10px 0;
+    }
+    .contentDescription{
+        background-color: white;
+        overflow: hidden;
+        height: 220px;
+    }
+    .diffProduct{
+        margin-left: 1%;
+        width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+    .diffProduct h4{
+        text-align: center;
+        background-color: white;
+        padding: 10px 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .diffItem{
+        height: 100px;
+        background-color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .diffItem img{
+        width: 100px;
+        height: 100px;
+        float: left;
+        background-color: white;
+        border-radius: 5px;
+
+    }
+    .diffName{
+        margin-left: 110px;
+        font-size: 15px;
+        color: #333333;
+        font-weight: 700;
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        background-color: white;
+        width: 158px;
+    }
+    .diffPrice{
+        color: #c2291b;
+        margin-left: 110px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+    .diffItem meter{
+        background-color: white;
+        margin-left: 10px;
+    }
+    .viewDescription{
+        margin: 0 auto;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+    color: #2f80ed;
+    border: none;
+    margin-left: 30%;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #2f80ed;
+    }
+    .viewDescription i{
+        background-color: white;
+        color: #2f80ed;
+    }
+    .viewShort i{
+        background-color: white;
+        color: #2f80ed;
+    }
+    .viewShort{
+        margin: 0 auto;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+    color: #2f80ed;
+    border: none;
+    margin-left: 30%;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #2f80ed;
+    display: none;
+    }
+    .userRate{
+        width: 69%;
+        border: 1px solid #e1e1e1;
+        height: 1000px;
+        clear: left;
+        border-radius: 5px;
+        background: white;
+    }
+    .pointRate{
+        border-bottom: 1px solid #e1e1e1;
+        height: 170px;
+        background: white;
+        padding-bottom: 0;
+    }
+    .pointRate h4{
+        background: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .totalRate{
+        background: white;
+        
+        height: 30px;
+    }
+    .totalRate p{
+        float: left;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 2px;
+    font-size: 23px;
+    color: #fe8c23;
+    font-weight: 700;
+    }
+    .totalRate meter{
+        float: left;
+        margin-left: 10px;
+    }
+    .itemPointRate{
+        background-color: white;
+        padding: 10px 0;
+    }
+    .timelineStar{
+        background-color: #eee;
+        height: 4px;
+        position: relative;
+        width: 100px;
+        float: left;
+        top: 5px;
+        left: 10px;
+    }
+    .timing{
+        background-color: #fe8c23;
+        left: 0;
+        height: 4px;
+        position: absolute;
+        top: 0;
+        width: 80%;
+    }
+    .sao{
+        background-color: white;
+        clear: left;
+        margin-left: 20px;
+        float: left;
+        font-size: 14px;
+        margin-top: -2px;
+    }
+    .sao i{
+        background-color: white;
+    }
+    .itemPointRate i{
+        font-size: 12px;
+    }
+    .tilePhanTram{
+        background-color: white;
+        margin-left: 20px;
+        font-size: 14px;
+        float: left;
+    }
+    .contentRate{
+        background-color: white;
+        padding: 10px 20px;
+    }
+    .itemContentRate{
+        background-color: white;
+        position: relative;
+        border-bottom: 1px solid #e1e1e1;
+        padding: 10px 0;
+    }
+    .rateName{
+        background-color: white;
+        font-weight: 700;
+    }
+    .rateContent{
+        margin-top: 30px;
+        background-color: white;
+    }
+    .rateTime{
+        position: absolute;
+        top: 10px;
+        right: 0;
+        background-color: white;
+    }
+    .paging{
+        background-color: white;
+        margin-top: 5px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .paging a{
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .activeRate{
+        background-color: #2f80ed;
+        color: white;
+    }
+    .viewShortLong{
+        position: absolute;
+    width: 95%;
+    height: 40px;
+    top: 210px;
+    background: linear-gradient(to bottom,rgba(255 255 255/0),rgba(255 255 255/62.5),rgba(255 255 255/1));
+    padding-top: 40px;
+    }
+    .titleHome{
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    .titleHome a{
+        text-decoration: none;
+        color: #288ad6;
+    }
+    .titleHome i{
+        color: #288ad6;
+        padding: 0 5px;
+    }
+    .postRate{
+        padding: 40px 20px 10px 20px;
+        background: white;
+    }
+    .postRate h4{
+        background-color: white;
+        padding: 10px 0;
+    }
+    .my-rating{
+        background: white;
+    }
+    .jq-star svg{
+        background-color: white;
+    }
+    .postRate form{
+        background-color: white;
+    }
+    .postRate input{
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 70%;
+    }
+    .contentPostRate{
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 70%;
+    }
+    .btnPostRate{
+        background-color: white;
+        margin-top: 10px;
+    }
+    .btnPostRate button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #0071e3;
+        background-color: #0071e3;
+        cursor: pointer;
+        color: white;
+    }
+    .itemLike{
+        width: 96%;
+        padding: 10px 2%;
+        float: left;
+        border-radius: 5px;
+        margin: 0 0 10px 0;
+        text-align: center;
+        background: white;
+        position: relative;
+    }
+    .itemLike img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid silver;
+        background: white;
+        margin: 0 auto;
+    }
+    .btnAddToCartLike{
+        padding: 13px 0;
+        border-radius: 20px;
+        color: #e82d2d;
+        border: 1px solid #e82d2d;
+        font-size: 13px;
+        cursor: pointer;
+        width: 125px;
+        margin: 10px 0 20px 10px;
+        float: left;
+        background: white;
+    }
+    .btnAddToCartLike:hover{
+        background: #e82d2d;
+        border: 1px solid #e82d2d;
+        color: white;
+    }
+    .btnBuyNowItemLike:hover{
+        background: #c2291b;
+        border: 1px solid #c2291b;
+    }
+    .btnBuyNowItemLike{
+        padding: 13px 0;
+        border-radius: 20px;
+        background: #e82d2d;
+        border: 1px solid #e82d2d;
+        color: white;
+        font-size: 13px;
+        cursor: pointer;
+        width: 125px;
+        margin: 10px 10px 10px 0;
+        float: right;
+    }
+    .dacsanPriceLike{
+        color: #e82d2d;
+        font-weight: 700;
+        font-size: 17px;
+        text-align: left;
+        padding-bottom: 10px;
+        background: white;
+        padding: 0 10px 10px 25px;
+    }
+    .formatRateLike{
+        position: absolute;
+        top: 245px;
+        right: 124px;
+        font-size: 20px;
     }
 }
