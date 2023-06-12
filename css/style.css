@@ -13,7 +13,7 @@
     }
     .header{
         width: 100%;
-    padding: 0;
+    padding: 5px 0;
     min-height: 52px;
     background-color: #e82d2d;
     position: fixed;
@@ -39,7 +39,7 @@
     .bars{
         background-color: #e82d2d;
         position: absolute;
-        top: 10px;
+        top: 15px;
         left: 27px;
         font-size: 30px;
     }
@@ -113,7 +113,7 @@
     background: white;
     }
     .boxCart{
-        padding-top: 7px;
+        padding-top: 6px;
         float: left;
         width: 0%;
         text-align: left;
@@ -149,7 +149,7 @@
         width: 100%;
         padding: 0;
         height: auto;
-        margin-top: 100px;
+        margin-top: 75px;
     }
     .banner{
         width: 96%;
@@ -666,7 +666,6 @@
         float: left;
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
-        border-right: none;
         cursor: pointer;
     }
     .minus i{
@@ -681,20 +680,25 @@
         float: left;
         border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
-        border-left: none;
         cursor: pointer;
     }
     .plus i{
         background-color: white;
         margin: 8px 10px;
     }
-    .cartItemNumber input{
+    .buyNumber{
         background-color: white;
         height: 30px;
         width: 30px;
         border: 1px solid silver;
         text-align: center;
         float: left;
+        border-left: none;
+        border-right: none;
+    }
+    .txtBuyNumber{
+        margin-top: 7px;
+        background-color: white;
     }
     .totalPayment{
         padding: 15px 2.5% 15px 5%;
@@ -730,6 +734,7 @@
         box-sizing: border-box;
         margin: 10px 0;
         float: left;
+        font-size: 15px;
     }
     .inforCustomer input:first-child{
         margin-right: 0;
