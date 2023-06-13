@@ -54,18 +54,21 @@
             <div class="detailInfor">
                 <div class="listImage" >
                     <ul id="lightSlider">
-                        <li style="border-radius: 5px;" data-thumb="img/banner.png">
-                            <img src="img/banner.png"/>
-                        </li>
-                        <li style="border-radius: 5px;" data-thumb="img/banner.png">
-                            <img src="img/banner.png"/>
+                        <li style="border-radius: 5px;" data-thumb="img/banhloc2.png">
+                            <img src="img/banhloc2.png"/>
                         </li >
-                        <li style="border-radius: 5px;" data-thumb="img/banner.png">
-                            <img src="img/banner.png"/>
-                        </li>
-                        <li style="border-radius: 5px;"  data-thumb="img/banner.png">
-                            <img src="img/banner.png"/>
-                        </li>
+                        <li style="border-radius: 5px;" data-thumb="img/banhloc2.png">
+                            <img src="img/banhloc2.png"/>
+                        </li >
+                        <li style="border-radius: 5px;" data-thumb="img/banhloc2.png">
+                            <img src="img/banhloc2.png"/>
+                        </li >
+                        <li style="border-radius: 5px;" data-thumb="img/banhloc2.png">
+                            <img src="img/banhloc2.png"/>
+                        </li >
+                        <li style="border-radius: 5px;" data-thumb="img/banhloc2.png">
+                            <img src="img/banhloc2.png"/>
+                        </li >
                     </ul>
                 </div>
                 <div class="description">
@@ -170,6 +173,17 @@
                     <button class="btnAddToCartLike">Thêm vào giỏ</button>
                     <button class="btnBuyNowItemLike">Mua ngay</button>
                 </div>
+                <div class="itemLike">
+                    <img src="img/banner.png" alt="">
+                    <p class="dacsanName">Bánh lọc</p>
+                    <p class="dacsanReview">Là một loại bánh rất ngon, phù hợp với khẩu vị của nhiều thực khách, tuy nhiên, món bánh này lại được làm từ những nguyên liệu rất cơ bản, dễ tìm như: bột năng, bột sắn, tôm, thịt, gia vị... Chính bởi sự bình dị, mộc mạc ấy chắc hẳn cũng làm nên một hương vị đặc trưng, làm "xao xuyến" cả những thực khách khó tính.</p>
+                    <p class="dacsanPriceLike">2,800<sup>đ</sup>/Cái </p>
+                    <div class="formatRateLike">
+                        <meter class="average-rating" min="0" max="5" value="2.5"></meter>
+                    </div>
+                    <button class="btnAddToCartLike">Thêm vào giỏ</button>
+                    <button class="btnBuyNowItemLike">Mua ngay</button>
+                </div>
             </div>
             <div class="userRate" id="userRate">
                 <div class="pointRate">
@@ -218,31 +232,31 @@
                 <div class="contentRate">
                     <div class="itemContentRate">
                         <p class="rateName">Hải My</p>
-                        <meter class="average-rating" min="0" max="5" value="5" style="float: left; font-size: 20px;"></meter>
+                        <meter class="average-rating" min="0" max="5" value="5" ></meter>
                         <p class="rateContent">Bánh lọc ngon</p>
                         <p class="rateTime">12/12/2022</p>
                     </div>
                     <div class="itemContentRate">
                         <p class="rateName">Hải My</p>
-                        <meter class="average-rating" min="0" max="5" value="5" style="float: left; font-size: 20px;"></meter>
+                        <meter class="average-rating" min="0" max="5" value="5"></meter>
                         <p class="rateContent">Bánh lọc ngon</p>
                         <p class="rateTime">12/12/2022</p>
                     </div>
                     <div class="itemContentRate">
                         <p class="rateName">Hải My</p>
-                        <meter class="average-rating" min="0" max="5" value="5" style="float: left; font-size: 20px;"></meter>
+                        <meter class="average-rating" min="0" max="5" value="5"></meter>
+                        <p class="rateContent">Bánh lọc ngon Bánh lọc ngon Bánh lọc ngonBánh lọc ngonBánh lọc ngon Bánh lọc ngonBánh lọc ngonBánh lọc ngon Bánh lọc ngon Bánh lọc ngon Bánh lọc ngon</p>
+                        <p class="rateTime">12/12/2022</p>
+                    </div>
+                    <div class="itemContentRate">
+                        <p class="rateName">Hải My</p>
+                        <meter class="average-rating" min="0" max="5" value="5" ></meter>
                         <p class="rateContent">Bánh lọc ngon</p>
                         <p class="rateTime">12/12/2022</p>
                     </div>
                     <div class="itemContentRate">
                         <p class="rateName">Hải My</p>
-                        <meter class="average-rating" min="0" max="5" value="5" style="float: left; font-size: 20px;"></meter>
-                        <p class="rateContent">Bánh lọc ngon</p>
-                        <p class="rateTime">12/12/2022</p>
-                    </div>
-                    <div class="itemContentRate">
-                        <p class="rateName">Hải My</p>
-                        <meter class="average-rating" min="0" max="5" value="5" style="float: left; font-size: 20px;"></meter>
+                        <meter class="average-rating" min="0" max="5" value="5"></meter>
                         <p class="rateContent">Bánh lọc ngon</p>
                         <p class="rateTime">12/12/2022</p>
                     </div>
@@ -356,18 +370,27 @@
             $(".viewShort").css("margin-top", "-0");
             $(".viewShort").css("display", "block");
             $(".viewShortLong").css("position", "relative");
-            $(".viewShortLong").css("top", "0");
+            $(".viewShortLong").css("top", "-5px");
             $(".viewShortLong").css("padding-top", "0");
+
 
 
         });
         $('.viewShort').click(function () {
-            $(".contentDescription").css("height", "200px");
+            $(".contentDescription").css("height", "450px");
 
             $(".viewDescription").css("display", "block");
             $(".viewShort").css("display", "none");
             $(".viewShort").css("margin-top", "0");
             $(".contentDescription").css("padding-bottom", "0");
+
+            $(".viewShortLong").css("position", "relative");
+            $(".viewShortLong").css("top", "-42px");
+            $(".viewShortLong").css("width", "100%");
+            $(".viewShortLong").css("padding-top", "40px");
+            
+            $(".descriptionProduct").css("height", "527px");
+
 
         });
     </script>

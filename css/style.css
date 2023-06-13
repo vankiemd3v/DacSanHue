@@ -414,16 +414,17 @@
         display: inline-block;
         vertical-align: baseline;
         margin-bottom: 15px;
+        font-size: 13px;
       }
     .average-rating::before {
-        --percent: calc(2.5/5*100%);
+        --percent: calc(4.5/5*100%);
         content: '★★★★★';
         position: absolute;
         top: 0;
         left: 0;
         color: rgba(0,0,0,0.2);
         background:
-          linear-gradient(90deg, gold var(--percent), rgba(0,0,0,0.2) var(--percent));
+          linear-gradient(90deg, #fe8c23 var(--percent), rgba(0,0,0,0.2) var(--percent));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -490,6 +491,7 @@
         width: 300px;
         height: 75px;
         background: #e82d2d;
+        margin: 0 auto;
     }
     .footer1 p{
         text-align: center;
@@ -770,9 +772,6 @@
         width: 100%;
         float: left;
     }
-    .listImage li{
-        background-color: white;
-    }
     .listImage ul li img{
         background-color: white;
         border-radius: 5px;
@@ -873,7 +872,7 @@
     }
     .numberRate{
         float: left;
-        margin-left: 90px;
+        margin-left: 110px;
         background-color: white;
         margin-top: 7px;
         text-decoration: none;
@@ -1008,9 +1007,10 @@
     .userRate{
         width: 100%;
         height: auto;
-        clear: left;
+        clear: both;
         border-radius: 5px;
         background: white;
+        padding-top: 10px;
     }
     .pointRate{
         border-bottom: 1px solid #e1e1e1;
@@ -1099,6 +1099,7 @@
     .rateContent{
         margin-top: 30px;
         background-color: white;
+        text-align: justify;
     }
     .rateTime{
         position: absolute;
@@ -1124,14 +1125,14 @@
     }
     .viewShortLong{
         position: absolute;
-    width: 95%;
+    width: 96%;
     height: 40px;
     top: 210px;
     background: linear-gradient(to bottom,rgba(255 255 255/0),rgba(255 255 255/62.5),rgba(255 255 255/1));
     padding-top: 40px;
     }
     .titleHome{
-        padding: 10px 0;
+        padding: 10px 5%;
         font-size: 15px;
     }
     .titleHome a{
@@ -1165,7 +1166,8 @@
         border: 1px solid #e1e1e1;
         border-radius: 5px;
         margin-top: 10px;
-        width: 70%;
+        width: 95%;
+        font-size: 16px;
     }
     .contentPostRate{
         background-color: white;
@@ -1173,7 +1175,8 @@
         border: 1px solid #e1e1e1;
         border-radius: 5px;
         margin-top: 10px;
-        width: 70%;
+        width: 95%;
+        font-size: 16px;
     }
     .btnPostRate{
         background-color: white;
@@ -1186,6 +1189,7 @@
         background-color: #0071e3;
         cursor: pointer;
         color: white;
+        font-size: 16px;
     }
     .itemLike{
         width: 44%;
@@ -1212,8 +1216,8 @@
         border: 1px solid #e82d2d;
         font-size: 13px;
         cursor: pointer;
-        width: 90%;
-        margin: 5px 10px;
+        width: 100%;
+        margin: 10px 0;
         float: left;
         background: white;
     }
@@ -1234,8 +1238,8 @@
         color: white;
         font-size: 13px;
         cursor: pointer;
-        width: 90%;
-        margin: 5px 10px;
+        width: 100%;
+        margin: 0 0 10px 0;
         float: right;
     }
     .dacsanPriceLike{
@@ -1245,7 +1249,7 @@
     text-align: left;
     padding-bottom: 10px;
     background: white;
-    padding: 0px 10px 10px 10px;
+    padding: 0;
     }
     .formatRateLike{
         position: absolute;
@@ -1255,10 +1259,14 @@
     }
     .formatRate{
         position: absolute;
-    top: 259px;
-    right: 90px;
+    top: 262px;
+    right: 95px;
     font-size: 18px;
     margin-bottom: 0;
+    }
+    .itemContentRate meter{
+        float: left; 
+        font-size: 15px;
     }
 }
 @media(min-width : 768px) {}
@@ -1686,6 +1694,7 @@
         display: inline-block;
         vertical-align: baseline;
         margin-bottom: 15px;
+        font-size: 20px;
       }
     .average-rating::before {
         --percent: calc(5/5*100%);
@@ -1694,7 +1703,8 @@
         top: 0;
         left: 0;
         color: rgba(0,0,0,0.2);
-        background: #fe8c23;
+        background:
+        linear-gradient(90deg, #fe8c23 var(--percent), rgba(0,0,0,0.2) var(--percent));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -2041,9 +2051,6 @@
         width: 50%;
         float: left;
     }
-    .listImage li{
-        background-color: white;
-    }
     .listImage ul li img{
         background-color: white;
         border-radius: 5px;
@@ -2144,7 +2151,7 @@
     }
     .numberRate{
         float: left;
-        margin-left: 90px;
+        margin-left: 110px;
         background-color: white;
         margin-top: 7px;
         text-decoration: none;
@@ -2171,7 +2178,7 @@
     width: 65%;
     text-align: justify;
     float: left;
-    height: 298px;
+    height: 527px;
     border-radius: 5px;
     margin-bottom: 10px;
     position: relative;
@@ -2185,7 +2192,7 @@
     .contentDescription{
         background-color: white;
         overflow: hidden;
-        height: 220px;
+        height: 450px;
     }
     .diffProduct{
         margin-left: 1%;
@@ -2284,6 +2291,7 @@
         clear: left;
         border-radius: 5px;
         background: white;
+        padding-top: 0;
     }
     .pointRate{
         border-bottom: 1px solid #e1e1e1;
@@ -2399,7 +2407,7 @@
         position: absolute;
     width: 95%;
     height: 40px;
-    top: 210px;
+    top: 444px;
     background: linear-gradient(to bottom,rgba(255 255 255/0),rgba(255 255 255/62.5),rgba(255 255 255/1));
     padding-top: 40px;
     }
@@ -2416,8 +2424,9 @@
         padding: 0 5px;
     }
     .postRate{
-        padding: 40px 20px 10px 20px;
+        padding: 23px 20px 10px 20px;
         background: white;
+        border-radius: 5px;
     }
     .postRate h4{
         background-color: white;
@@ -2525,5 +2534,9 @@
         top: 245px;
         right: 124px;
         font-size: 20px;
+    }
+    .itemContentRate meter{
+        float: left; 
+        font-size: 15px;
     }
 }
